@@ -1,0 +1,350 @@
+*{
+    box-sizing: border-box;
+    font-family: Helvetica, Sans serif;
+}
+body{
+    margin: 0 auto;
+    text-align: center;
+    background: #FFF8EF;
+}
+header, a{
+    
+    background: #E6355F;
+    color: aliceblue;
+    text-decoration: none;
+    display: flex;
+    padding: 0 8px;
+    align-content: center;
+    font-weight: bold;
+   
+}
+header h4{
+    margin:8px;
+    align-content: center;
+    text-align: end;
+    width: 30%;
+    font-family: titan one;
+    font-weight: 100;
+}
+nav{
+    width: 70%;
+    margin: 0;
+    align-content: center;
+    
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    align-items: center;
+    gap: 12px;
+    padding: 0 16px;
+}
+.ctr{
+    background: #FFD23E;
+    padding: 8px 32px;
+    border-radius: 24px;
+}
+main{
+    min-height: 500px;
+    width: 100%;
+    margin: 0;
+    background-color: #E6355F;
+    background-image: url("../assets/water-ice.png");
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: aliceblue;
+    align-content: center;
+   
+}
+main section{
+    width: 70%;
+    margin: 0 auto;
+    padding: 0;
+    
+    
+
+}
+.foundation{
+    color:#FFD23E;
+    font-size: 12px;
+    font-family: titan one;
+    font-weight: 100;
+    margin: 0 auto;
+    text-align: left;
+}
+h1{
+    width: 60%;
+    font-family: titan one;
+    font-size: 900;
+    letter-spacing:2px;
+    text-align: left;
+    
+}
+.headline{
+    width: 60%;
+    font-size: 12px;
+    font-weight: light;
+    line-height: 1.6;
+    text-align: left;
+
+}
+.blocks {
+    background: #FFD23E;
+    display: block;
+    text-align: center;
+    align-content: center;
+    font-weight: bold;
+    height: 36px;
+    margin-top: 0px;
+    font-size: 12px;
+}
+div{
+    margin: 0 left;
+    width:60% ;
+    display: flex;
+    gap: 8px;
+}
+.ctrs{
+    background: #FFD23E;
+    padding: 12px 28px;
+    border-radius: 36px;
+}
+#ctr-off{
+     background: none;
+     border: 2px solid aliceblue;
+}
+#ctr-on{
+     color: #392434;
+}
+
+.flavor-board{
+    width: 70%;
+    margin: 0 auto;
+    text-align: left;
+}
+.flavor-board h4{
+    padding-top:16px;
+    color: #E6355F;  
+    margin-top: 80px;  
+}
+
+.flavor-board .subtitle{
+    width: 30%;
+    font-family: titan one;
+    padding-top:16px;
+    color: #392434;  
+    font-weight: lighter;  
+    margin-top:0;
+    margin-bottom: 0;
+}
+.flavor-board p{
+    width: 50%;
+    color: #392434;  
+    margin-top:0;
+}
+.menu{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap:16px;
+    margin-top: 32px;
+}
+.menu-down{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    gap:16px;
+    margin-top: 32px;
+}
+.menu h3{
+    font-family: titan one;
+    color: #392434;  
+    font-weight: lighter;  
+}
+.card{
+    background: #FFFFFF;
+    border-top: 8px solid #E6355F;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px 1px rgba(53, 52, 52, 0.2);
+
+}
+#candy{
+    width: 25%;
+}
+.card h3{
+    display: flex;
+    align-items: center;
+    padding:0 16px;
+    gap: 8px;
+}
+.card p{
+    width: 100%;
+    text-align: center;
+    padding: 0 8px;
+    color: #695063;
+}
+.dot{
+  width: 15px;
+  height: 15px;
+  background-color: #E6355F;
+  border-radius: 50%;
+}
+
+#lemon{
+    border-top: 8px solid #FFD23E;
+}
+#dot2{
+    background-color: #FFD23E;
+}
+
+#raspberry{
+    border-top: 8px solid #3AA7E0;
+}
+#dot3{
+    background-color: #3AA7E0;
+}
+#mango{
+    border-top: 8px solid #FF9F46;
+}
+#dot4{
+    background-color: #FF9F46;
+}
+#candy{
+    border-top: 8px solid #C887E8;
+}
+#dot5{
+    background-color: #C887E8;
+}
+.flavor-board p{
+    margin: 8px 0;
+}
+section .special{
+    width: 100%;
+    padding: 24px 0;
+    margin-bottom: 56px;
+    text-align:  center;
+    color: #695063;
+}
+section strong{
+    margin-top: 8px;
+    padding: 4px 16px;
+    background: #FFD23E;
+    font-family: titan one;
+    font-weight: lighter;
+    color: #392434;
+}
+
+.sizes{
+    background:#BFE4F5;
+}
+.container{
+    width: 70%;
+    margin: 0 auto;
+    
+    border:1px solid #b31b8f;
+}
+.flavor-board .tags{
+    color:#E6355F;
+    font-size: 12px;
+    font-family: titan one;
+    font-weight: 100;
+    margin-top: 64px;
+    text-align: left;
+    padding-top: 64px;
+    margin-bottom: 0;
+}
+#pick .card {
+    border: none;
+    background: FFFFFF;
+    align-items: center;
+    width: 20%;
+    margin: 0 auto;
+    padding: 0;   
+}
+
+#pick .card .foundation{
+    text-align: center;
+    padding: 16px;
+    margin-top:20px ;
+    color: #392434;
+    
+}
+#pick .card .price{
+    color: #E6355F;
+    margin:  auto;
+    text-align: center;
+    align-content: center;
+    padding: 0 60px;
+    
+}
+#pick .card .description{
+    padding: 8px ;
+    color: #695063;
+}
+.sizes p{
+    font-size: 12px;
+    padding-top: 8px;
+    padding-bottom: 64px;
+}
+#address .card {
+    border: none;
+    background: #FFFFFF;
+    align-items: center;
+    width: 33%;
+    margin: 0 auto;
+    padding: 0;   
+}
+
+.find-the-stand .subtitle{
+    width: 40%;
+}
+.find-the-stand .price{
+    color:#E6355F;
+}
+.find-the-stand .plain{
+    text-align: left;
+    padding: 0 16px;
+}
+.find-the-stand a{
+    text-align: left;
+    padding: 0 16px;
+    text-decoration: underline;
+    background: #FFFFFF;
+    color: #E6355F;
+}
+footer{
+    background: #392434;
+    color: #FFFFFF;
+}
+footer .menu .card{
+    background: none;
+    border-top: none;
+}
+footer .foundation{
+    padding-top:36px ;
+    color: #FFFFFF;
+}
+
+footer .footer-text{
+    color: #FFFFFF;
+    line-height: 24px;
+    text-align: left;
+    padding: 0;
+}
+footer a{
+    color: FFFFFF;
+    text-decoration: underline;
+    background: none;
+    padding: 0;
+}
+#back{
+    border-top: 1px solid white;
+    align-items: center;
+    justify-content: left;
+}
+#back p{
+    padding: 16px;
+     width: 50%;
+}
